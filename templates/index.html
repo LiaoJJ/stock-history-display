@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+</head>
+<body>
+
+    <form action="{{ url_for("post_index") }}" method="post">
+    <label for="Stock Abbreviation">Step 1: Input stock abbreviation:</label>
+    <input type="text" id="Stock Abbreviation" name="Stock Abbreviation" value="{{abbr}}">
+    <br>
+    <label for="Buy-in Sell-out Histories of Robinhood">Step 2: Copy and paste buy/sell histories from Robinhood:</label>
+    <br>
+    <textarea rows="14" cols="33" type="text" id="Buy-in Sell-out Histories of Robinhood" name="Buy-in Sell-out Histories of Robinhood" >{{ histories }}</textarea>
+    <br>
+    <text></text>
+    <label for="period">Step 3: (Optional) Choose a period:</label>
+    <select name="period" id="period">
+        {% for period in period_list %}
+        <option value="{{ period }}"{% if period == selected_period %} selected{% endif %}>{{ period }}</option>
+        {% endfor %}
+    </select>
+    <label for="filter">filter:</label>
+    <input type="text" id="filter" name="filter" value="{{filter}}">
+    <br>
+    <text>Step 4: Click submit, then you should see buy/sell history picture attached to your stock line chart as below</text>
+    <br>
+    <button type="submit">submit</button>
+
+    <img src="{{ user_image }}" alt="User Image" style='height: 100%; width: 100%; object-fit: contain'>
+</body>
+</html>

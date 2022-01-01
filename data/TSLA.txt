@@ -1,0 +1,198 @@
+Limit Sell
+Dec 28
+$19,773.00
+18 shares at $1,098.50
+
+Limit Buy
+Dec 27
+$19,758.06
+18 shares at $1,097.67
+
+Limit Sell
+Dec 27
+$24,024.00
+22 shares at $1,092.00
+
+Limit Sell
+Dec 27
+Canceled
+
+Limit Buy
+Dec 23
+$23,478.40
+22 shares at $1,067.20
+
+Limit Buy
+Dec 23
+Canceled
+
+Limit Sell
+Dec 16
+$9,350.00
+10 shares at $935.00
+
+Limit Sell
+Dec 16
+Canceled
+
+Limit Sell
+Dec 16
+Canceled
+
+Limit Sell
+Dec 16
+Canceled
+
+Limit Sell
+Dec 15
+Canceled
+
+Limit Sell
+Dec 14
+Canceled
+
+Limit Buy
+Dec 9
+$10,000.00
+10 shares at $1,000.00
+
+Limit Buy
+Dec 2
+Canceled
+
+Limit Sell
+Dec 2
+$9,891.00
+9 shares at $1,099.00
+Older
+
+Limit Sell
+Nov 24
+Canceled
+
+Limit Buy
+Nov 23
+$9,990.00
+9 shares at $1,110.00
+
+Limit Buy
+Nov 22
+Canceled
+
+Limit Buy
+Nov 19
+Canceled
+
+Limit Sell
+Nov 8
+$4,757.84
+4 shares at $1,189.46
+
+Limit Sell
+Nov 8
+Canceled
+
+Limit Buy
+Nov 5
+$4,929.32
+4 shares at $1,232.33
+
+Limit Sell
+Nov 2
+$5,810.00
+5 shares at $1,162.00
+
+Limit Buy
+Nov 2
+$3,540.65
+3 shares at $1,180.22
+
+Limit Buy
+Nov 2
+$2,359.20
+2 shares at $1,179.60
+
+Limit Sell
+Oct 13
+$3,234.20
+4 shares at $808.55
+
+Market Buy
+Sep 23
+$3,014.38
+4 shares at $753.60
+
+Limit Buy
+Aug 20
+Canceled
+
+Limit Buy
+Aug 20
+Canceled
+
+Trailing Stop Buy
+Aug 20
+Canceled
+
+Market Sell
+Jul 29
+$245.91
+0.364944 shares at $673.83
+
+Trailing Stop Sell
+Jul 29
+$4,713.00
+7 shares at $673.29
+
+Trailing Stop Sell
+Jul 29
+Canceled
+
+Trailing Stop Sell
+Jul 29
+Canceled
+
+Limit Sell
+Jul 27
+Canceled
+
+Limit Sell
+Jul 22
+Canceled
+
+Limit Sell
+Jul 21
+Canceled
+
+Market Buy
+Jun 29
+$4,768.50
+7.023947 shares at $678.89
+
+Market Buy
+May 20
+$9.75
+0.016735 shares at $582.61
+
+Market Buy
+May 18
+$150.00
+0.254948 shares at $588.36
+
+Market Sell
+May 17
+$10.00
+0.017582 shares at $568.76
+
+Market Buy
+May 16
+$50.00
+0.086896 shares at $575.40
+
+Market Buy
+May 16
+Canceled
+
+Market Buy
+May 16
+Canceled
