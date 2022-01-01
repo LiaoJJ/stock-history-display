@@ -15,15 +15,12 @@ By the help of this app, users will be able to have a better view from their pas
 
 ## Steps
 - Step 1: Input stock abbreviation: By default, it is TSLA, which is the abbreviation of TESLA
-
 - Step 2: Copy and paste buy/sell histories from [Robinhood history page](https://robinhood.com/history/e39ed23a-7bd1-4587-b060-71988d9ef483), make sure you follow the format, 
-
 - Step 3: (Optional) Choose a period: 1 year or 5 year. Also, you can choose a filter which could filter out small profit line to reduce distraction, default = 10.
-
 - Step 4: Click submit, then you should see buy/sell history picture attached to your stock line chart as below
 
 ## Current Feature
-- An interactive web app based on Flask, Python, html
+- Tech Stacks: Flask, Python, html, JSON
 - Deployed on Heroku using Docker
 - fetch Stock data from Yahoo Finance API
 - history: the personal operations history, like when you make a buy-in or sell-out transaction, this will add a datapoint into history. This app support parse data from history following Robinhood history page format. You may paste history from Robinhood history page.
@@ -38,7 +35,7 @@ By the help of this app, users will be able to have a better view from their pas
 - support personal accounts, and support google login in
 - better de-deplicate mechanism
 - scale by different time length, year, month, day, etc
-
+- a better system design
 
 
 ## Reference
