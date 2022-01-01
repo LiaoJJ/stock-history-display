@@ -20,12 +20,13 @@ By the help of this app, users will be able to have a better view from their pas
 - Step 4: Click submit, then you should see buy/sell history picture attached to your stock line chart as below
 
 ## Current Feature
-- Tech Stacks: Flask, Python, html, JSON
-- Deployed on Heroku using Docker
+- Tech Stacks: `Flask, Python, html, JSON, Docker`
+- Deployed on Heroku
 - fetch Stock data from Yahoo Finance API
-- history: the personal operations history, like when you make a buy-in or sell-out transaction, this will add a datapoint into history. This app support parse data from history following Robinhood history page format. You may paste history from Robinhood history page.
+- persist Stock data as file to reduce duplicated Yahoo Finance API request 
+- parse history data: the personal operations history, like when you make a buy-in or sell-out transaction, this will add a datapoint into history. This app support parse data from history following Robinhood history page format. You may paste history from Robinhood history page.
 - bypass browser cache by random number naming
-- support parsing complicated transactions and generating threads. 
+- support parsing complicated transactions and generating simple buy or sell threads. 
 - clear green and red view for earn and loss. very high definition picture.
 
 
