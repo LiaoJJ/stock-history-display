@@ -10,6 +10,9 @@ By the help of this app, users will be able to have a better view from their pas
 ## Sample result
 ![](static/TSLA_1y_result.png)
 
+## System Structure
+![](static/sd.png)
+
 ## Steps
 - Step 1: Input stock abbreviation: By default, it is TSLA, which is the abbreviation of TESLA
 
