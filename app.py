@@ -6,7 +6,7 @@ sys.path.append(os.path.dirname("./src"))
 sys.path.append(os.path.dirname("./data"))
 sys.path.append(os.path.dirname("./static"))
 from src.history_data_processor import get_default_history_data, process_history
-from src.controller import display
+from src.controller import process
 import random
 import matplotlib
 
@@ -20,21 +20,26 @@ matplotlib.use('Agg')
 app = Flask(__name__)
 
 
-@app.route('/', methods =["GET"])
-def get_index():
-    return render_template("index.html", user_image = "static/TSLA_1y_result.png", abbr = default_stock_abbr, histories=default_histories, period_list = period_list, selected_period = period_list[0], filter=default_filter)
+# @app.route('/', methods =["GET"])
+# def get_index():
+#     return render_template("index.html", user_image = "static/TSLA_1y_result.png", abbr = default_stock_abbr, histories=default_histories, period_list = period_list, selected_period = period_list[0], filter=default_filter)
 
-@app.route('/', methods = ["POST"])
+@app.route('/', methods = ["POST", "GET"])
 def post_index():
-    stock_abbr = request.form.get("Stock Abbreviation")
-    histories = request.form.get("Buy-in Sell-out Histories of Robinhood")
-    period = request.form.get("period")
-    filter=int(request.form.get("filter"))
+    stock_abbr = request.form.get("Stock Abbreviation") or default_stock_abbr
+    histories = request.form.get("Buy-in Sell-out Histories of Robinhood") or default_histories
+    period = request.form.get("period") or period_list[0]
+    filter=int(request.form.get("filter") or default_filter)
     rand = str(random.random()) # prevent brower cache and make sure users get updated picture
-    display(histories, stock_abbr, period, filter, rand)
+    error_message, result_text = "", ""
+    try:
+        result_text = process(histories, stock_abbr, period, filter, rand)
+    except Exception as e:
+        error_message = e
+        print(e)
     picture_path = "static/{}_{}_result_{}.png".format(stock_abbr, period, rand)
     resp = render_template("index.html", user_image=picture_path, abbr=stock_abbr, histories=histories,
-                           period_list=period_list, selected_period=period, filter=filter)
+                           period_list=period_list, selected_period=period, filter=filter, error_message=error_message, result_text = result_text)
     return resp
 
 

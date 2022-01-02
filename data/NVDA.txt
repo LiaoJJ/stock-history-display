@@ -1,0 +1,291 @@
+Limit Sell
+Dec 27, 2021
+$22,154.40
+72 shares at $307.70
+
+Limit Sell
+Dec 27, 2021
+Canceled
+
+Dividend
+Dec 23, 2021
++$1.20
+
+Limit Sell
+Dec 23, 2021
+Canceled
+
+Limit Buy
+Dec 22, 2021
+$584.60
+2 shares at $292.30
+
+Limit Buy
+Dec 22, 2021
+Canceled
+
+Limit Buy
+Dec 22, 2021
+$20,498.14
+70 shares at $292.83
+
+Limit Buy
+Dec 21, 2021
+Canceled
+
+Limit Buy
+Dec 20, 2021
+Canceled
+
+Limit Buy
+Dec 20, 2021
+Canceled
+
+Limit Buy
+Dec 20, 2021
+Canceled
+
+Limit Buy
+Dec 20, 2021
+Canceled
+
+Limit Buy
+Dec 20, 2021
+Canceled
+
+Limit Sell
+Dec 15, 2021
+$14,992.00
+50 shares at $299.84
+
+Limit Sell
+Dec 15, 2021
+Canceled
+
+Limit Sell
+Dec 15, 2021
+Canceled
+
+Limit Sell
+Dec 15, 2021
+Canceled
+
+Limit Sell
+Dec 15, 2021
+Canceled
+
+Limit Sell
+Dec 15, 2021
+Canceled
+
+Limit Sell
+Dec 15, 2021
+Canceled
+
+Limit Sell
+Dec 15, 2021
+Canceled
+
+Limit Sell
+Dec 14, 2021
+Canceled
+
+Limit Buy
+Dec 9, 2021
+$15,000.00
+50 shares at $300.00
+
+Limit Sell
+Dec 3, 2021
+$14,712.00
+48 shares at $306.50
+
+Limit Sell
+Dec 3, 2021
+Canceled
+
+Limit Sell
+Dec 3, 2021
+Canceled
+Older
+
+Limit Buy
+Dec 2, 2021
+$14,976.00
+48 shares at $312.00
+
+Limit Buy
+Dec 2, 2021
+Canceled
+
+Limit Buy
+Dec 2, 2021
+Canceled
+
+Limit Buy
+Dec 2, 2021
+Canceled
+
+Limit Buy
+Dec 2, 2021
+Canceled
+
+Limit Sell
+Dec 1, 2021
+$9,966.00
+30 shares at $332.20
+
+Limit Sell
+Nov 30, 2021
+Canceled
+
+Limit Sell
+Nov 30, 2021
+Canceled
+
+Limit Sell
+Nov 23, 2021
+Canceled
+
+Limit Buy
+Nov 23, 2021
+Canceled
+
+Limit Buy
+Nov 23, 2021
+$9,300.00
+30 shares at $310.00
+
+Limit Buy
+Nov 22, 2021
+Canceled
+
+Limit Sell
+Nov 17, 2021
+$15,989.00
+50 shares at $319.78
+
+Limit Buy
+Nov 17, 2021
+$15,050.00
+50 shares at $301.00
+
+Limit Buy
+Nov 11, 2021
+Canceled
+
+Limit Sell
+Nov 10, 2021
+$14,805.69
+49 shares at $302.16
+
+Limit Sell
+Nov 9, 2021
+Canceled
+
+Limit Buy
+Nov 9, 2021
+$4,360.26
+14 shares at $311.45
+
+Limit Sell
+Nov 9, 2021
+$4,875.00
+15 shares at $325.00
+
+Limit Sell
+Nov 8, 2021
+$4,920.00
+16 shares at $307.50
+
+Limit Sell
+Nov 8, 2021
+Canceled
+
+Limit Sell
+Nov 8, 2021
+Canceled
+
+Limit Sell
+Nov 8, 2021
+Canceled
+
+Limit Sell
+Nov 8, 2021
+Canceled
+
+Limit Sell
+Nov 8, 2021
+Canceled
+
+Limit Buy
+Nov 5, 2021
+$4,242.00
+14 shares at $303.00
+
+Limit Buy
+Nov 4, 2021
+$15,515.76
+52 shares at $298.38
+
+Limit Buy
+Nov 4, 2021
+Canceled
+
+Limit Sell
+Nov 4, 2021
+$10,296.00
+36 shares at $286.00
+
+Limit Buy
+Nov 3, 2021
+$9,508.68
+36 shares at $264.13
+
+Limit Sell
+Nov 3, 2021
+$8,156.72
+31 shares at $263.12
+
+Limit Sell
+Nov 3, 2021
+Canceled
+
+Limit Buy
+Nov 2, 2021
+$264.50
+1 share at $264.50
+
+Limit Buy
+Nov 2, 2021
+$2,903.30
+11 shares at $263.94
+
+Limit Buy
+Nov 2, 2021
+$3,151.20
+12 shares at $262.60
+
+Limit Buy
+Nov 2, 2021
+$1,840.72
+7 shares at $262.96
+
+Limit Buy
+Sep 30, 2021
+Canceled
+
+Market Sell
+Jul 29, 2021
+$110.17
+0.558788 shares at $197.16
+
+NVIDIA Forward Split
+Jul 20, 2021
+4:1 Split
+
+
+Market Buy
+Jul 16, 2021
+$100.00
+0.139697 shares at $715.84
