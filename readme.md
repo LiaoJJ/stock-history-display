@@ -88,6 +88,8 @@ Then, this will generate below thread transactions:
 - beautify UI by Bootstrap
 
 ## How to Copy History
+Copy everything inside the red rectangle, and then paste it into text rectangle
+
 ![](static/his.png)
 
 ## Reference
