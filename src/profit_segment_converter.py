@@ -58,7 +58,7 @@ def profit_segment2statistics(profit_segment):
         profit.append(seg[3])
 
     return '''Metrics:
-        - total profit: {}
+        - total profit: {:.2f}
         - total thread transactions: {}
         - hold days: max={}, avg={}, min={} 
         - volume: max={}, avg={}, min={} 

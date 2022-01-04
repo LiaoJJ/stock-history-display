@@ -1,5 +1,7 @@
 import calendar
 import pandas as pd
+from datetime import datetime, timedelta
+
 
 def get_default_history_data(name):
     with open('data/{}.txt'.format(name)) as f:
@@ -17,10 +19,12 @@ def process_history(input_string):
             split = split_process(row, split)
             continue
         t = row.split('\n')
+        if t[1].find(" ")==-1:
+            continue
         cost = dollar_converter(t[2])
         time = time_converter(t[1])
         buy_sell = t[0].split(" ")[-1]
-        volume = float(t[3].split(" ")[0]) * split
+        volume = float(t[3].split(" ")[0].replace(",", "")) * split
         unit_price = dollar_converter(t[3].split(" ")[3]) / split
         data.append([time, buy_sell, volume, cost, unit_price])
 
@@ -30,9 +34,11 @@ def process_history(input_string):
 
 def time_converter(date):
     m = {month: index for index, month in enumerate(calendar.month_abbr) if month}
-    if date.find(",")!=-1:
+    if date.find(",")!=-1: # "Dec 31, 2021"
         return pd.Timestamp(date)
-    else:
+    elif date.find(" ")==-1: # '2h', but we currently do not support today, so drop this data point
+        pd.Timestamp(datetime.today().strftime("%Y-%m-%d"))
+    else: # "Dec 31"
         month = m[date.split(" ")[0]]
         day = int(date.split(" ")[1])
         return pd.Timestamp("2021-{:02d}-{:02d}".format(month, day))

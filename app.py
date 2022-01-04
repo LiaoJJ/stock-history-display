@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 import sys
 import os
+import traceback
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(os.path.dirname("./src"))
 sys.path.append(os.path.dirname("./data"))
@@ -34,9 +35,9 @@ def post_index():
     error_message, result_text = "", ""
     try:
         result_text = process(histories, stock_abbr, period, filter, rand)
-    except Exception as e:
-        error_message = e
-        print(e)
+    except Exception:
+        error_message = "Error: "+str(traceback.format_exc())
+        print(error_message)
     picture_path = "static/{}_{}_result_{}.png".format(stock_abbr, period, rand)
     resp = render_template("index.html", user_image=picture_path, abbr=stock_abbr, histories=histories,
                            period_list=period_list, selected_period=period, filter=filter, error_message=error_message, result_text = result_text)
