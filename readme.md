@@ -74,18 +74,23 @@ Then, this will generate below thread transactions:
 [day 2, day 3, 1, -1]
 ```
 
-## Future
-- Redis Cache
-  - for merged picture, key is `stock name + period + interval + SHA256(history data)`
-  - for stock data, key is `stock name + period + interval`
-  - for history data, key is `SHA256(history data)`
-- MySQL storage
-  - 3 tables: stock data table, history data table and users table
-- support personal accounts, and support google login in
-- better de-deplicate mechanism, potentially using hash, SHA256
-- scale by different time length, year, month, day, etc
-- a broader system design
-- beautify UI by Bootstrap
+## Future Feature
+- a standard text history input as an alternative for Robinhood history
+- UI and display
+  - **Stock Price transform**, automatically set maximum price as 100, and adjust stock price accordingly, e.g. Let's say Tesla history maximum price is 1243, then we apply a ratio 1243:100 to it's price
+  - **Log axis display**, could refer to moomoo
+  - beautify UI by Bootstrap
+  - scale by different time length, year, month, day, etc
+- System Design
+  - Redis Cache
+    - for merged picture, key is `stock name + period + interval + SHA256(history data)`
+    - for stock data, key is `stock name + period + interval`
+    - for history data, key is `SHA256(history data)`
+  - MySQL storage
+    - 3 tables: stock data table, history data table and users table
+  - support personal accounts, and support google login in
+  - better de-deplicate mechanism, potentially using hash, SHA256
+  - a broader system design
 
 ## How to Copy History
 Copy everything inside the red rectangle, and then paste it into text rectangle
