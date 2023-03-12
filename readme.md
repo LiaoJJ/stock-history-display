@@ -1,6 +1,6 @@
 # Stock History Display
 
-Available on Heroku: https://stock-history-display.herokuapp.com/
+Available on Heroku: https://stock-history-display.onrender.com
 
 ## Introduction
 The purpose of this project is something an easy yearly review tool for your stock performance. This app will help you get a very quick and clear view of your past invesment, about whether you earn or loss, about how much you earn and loss, about when you buy-in and sell-out, about the volume in related buy/sell threade. We both know it's pretty annoying to review your Robinhood history long list and it's not clear at all.
